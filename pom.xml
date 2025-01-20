@@ -42,7 +42,21 @@
             <artifactId>webdrivermanager</artifactId>
             <version>4.4.3</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-apache</artifactId>
+            <version>1.2.0</version> <scope>test</scope>
+        </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>karate-repo</id>
+            <url>https://repo1.maven.org/maven2</url>
+        </repository>
+    </repositories>
+
 
     <build>
         <plugins>
